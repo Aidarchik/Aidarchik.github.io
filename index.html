@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="windows-1251">
+	<title>Тестовое задание</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/tabs.css">
+	<script src="js/jquery.js" type="text/javascript"></script>  
+	<script src="js/main.js" type="text/javascript"></script> 
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/tabs.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class="fixed_menu">
+		<a href="#"><div class="calcul">&nbsp;</div></a>
+		<a href="#"><div class="mail">&nbsp;</div></a>
+	</div>
+	<div id="page_align">	
+		<div id="page_main">
+			<div id="header">
+				<div id="logo">	
+					<a href="#">Публичный бюджет<br><span style="font-size:21pt;">города Перми</span></a>
+				</div>	
+				<div id="search_block">
+					<ul>
+						<li><span class="s_icon s_icon_portal"></span>
+							<a href="#">О портале</a></li>
+						<li><span class="s_icon s_icon_map"></span>
+							<a href="#">Карта сайта</a></li>
+						<li><span class="s_icon s_icon_password"></span>
+							<a href="#">Вход с паролем</a></li>
+					</ul>
+					<form class="search_form" action="#" method="post">
+						<input placeholder="Поиск" type="text" name="search">
+						<button type="submit">Найти</button>
+					</form>
+				</div>				
+				<div id="h_nav">
+					<ul>
+						<li id="bok"></li>
+						<li><a href="#">О бюджете</a></li>
+						<li><a href="#">Проект<br>бюджета</a></li>
+						<li><a href="#">Утвержденные <br>бюджеты</a>
+							<ul>
+								<li><a href="#">Основные показатели бюджета</a></li>
+								<li><a href="#">Основные принципы бюджетной и налоговой	политики города Перми</a></li>
+								<li><a href="#">Структура бюджета города Перми</a></li>
+								<li><a href="#">Стркутура доходов бюджета города Перми</a></li>
+								<li><a href="#">Структура расходов бюджета города Перми</a>
+									<ul>
+										<li><a href="#">Расходы в разрезе направлений дейтельности</a></li>
+										<li><a href="#">Расходы в разрезе ведомств</a></li>
+										<li><a href="#">Расходы в разрезе отраслей</a></li>
+										<li><a href="#">Расходы в разрезе видов расходов</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Структура источников финансирования дефицита бюджета города Перми</a></li>
+								<li><a href="#">Решение о бюджете города Перми</a>
+									<ul>
+										<li><a href="#">Бюджет на 2013–2015 годы</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Дополнительные документы к бюджету</a>
+									<ul>
+										<li><a href="#">Перечень публичных нормативных обязательств</a></li>
+										<li><a href="#">Прогноз СЭР до 2015 года</a></li>
+									</ul>
+								</li>
+							</ul>	
+						</li>
+						<li><a href="#">Исполнение<br>бюджета</a>
+							<ul>
+									<li><a href="#">Item1</a></li>
+									<li><a href="#">Item2</a></li>
+									<li><a href="#">Item3</a></li>
+									<li><a href="#">Item4</a></li>
+									<li><a href="#">Item5</a></li>
+									<li><a href="#">Item6</a></li>
+									<li><a href="#">Item7</a></li>
+									<li><a href="#">Item8</a></li>
+									<li><a href="#">Item9</a></li>
+							</ul>
+						</li>
+						<li class="active_nav"><a href="#">Мунициапльные<br>программы</a>
+							<ul>
+									<li><a href="#">Item1</a></li>
+									<li><a href="#">Item2</a></li>
+									<li><a href="#">Item3</a></li>
+									<li><a href="#">Item4</a></li>
+									<li><a href="#">Item5</a></li>
+									<li><a href="#">Item6</a></li>
+									<li><a href="#">Item7</a></li>
+									<li><a href="#">Item8</a></li>
+									<li><a href="#">Item9</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Объекты капитального<br>строительства</a>
+							<ul>
+									<li><a href="#">Item1</a></li>
+									<li><a href="#">Item2</a></li>
+									<li><a href="#">Item3</a></li>
+									<li><a href="#">Item4</a></li>
+									<li><a href="#">Item5</a></li>
+									<li><a href="#">Item6</a></li>
+									<li><a href="#">Item7</a></li>
+									<li><a href="#">Item8</a></li>
+									<li><a href="#">Item9</a></li>
+							</ul>
+						</li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			<div id="hleb">
+				<ul>
+					<li><a href="">Главная</a></li>
+					<li><a href="">Муниципальные программы</a></li>
+					<li><a href="" class="decnone">Организация дорожной деятельности в городе Перми</a></li>
+				</ul>
+			</div>
+			<div class="main_content">
+				<div class="sidebar">
+					<div class="sidebar_list">
+						<ul>
+							<li class="open">
+								<span class="arrow">&nbsp;</span>
+								<a href="#" class="main_parent">Расходы по программам в целом</a>
+								<ul>
+									<li><a href="#">Обеспечение доступности качественного образования в городе Перми</a></li>
+									<li><a href="#">Молодежь города Перми</a></li>
+									<li class="active_sb_list"><a href="#">Организация дорожной деятельности в городе Перми</a></li>
+									<li><a href="#">Осуществление мер по гражданской обороне пожарной безопасности и защите от чрезвычайных ситуаций в городе Перми</a></li>
+									<li><a href="#">Социальная поддержка населения города Перми</a></li>
+									<li><a href="#">Организация дорожного движения и развитие городского пассажирского транспорта общего пользования в городе Перми</a></li>
+									<li><a href="#">Культура города Перми</a></li>
+									<li><a href="#">Потребительский рынок города Перми</a></li>
+									<li><a href="#">Профилактика правонарушений в городе<br>Перми</a></li>
+									<li><a href="#">Экономическое развитие и инновационная экономика города Перми</a></li>
+									<li><a href="#">Благоустройство и содержание объектов озеленения общего пользования и объектов ритуального назначения в городе Перми</a></li>
+									<li><a href="#">Развитие физической культуры и спорта в городе Перми</a></li>
+									<li><a href="#">Семья и дети города Перми</a></li>
+									<li><a href="#">Общественное участие</a></li>
+								</ul>
+							</li>
+							<li>
+								<span class="arrow">&nbsp;</span>
+								<a href="#" class="main_parent">Расходы по мероприятиям программ</a>
+							</li>
+							<li>
+								<span class="arrow">&nbsp;</span>
+								<a href="#" class="main_parent">Полные тексты муниципальных программ</a>
+							</li>
+						</ul>
+					</div>	
+					<p class="sidebarbtn"></p>
+				</div>
+				<div class="content">
+					<div class="con_title">
+						<div class="title"><span class="t_icon"></span>Организация дорожной деятельности в городе Перми</div>
+						<div class="doc">
+							<a href="">
+								<span class="btn">
+									<img alt="" src="images/icon_word.png">
+									DOC
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="section">
+						<ul class="tabs">
+							<li class="current">Паспорт муниципальной программы</li>
+							<li>Ключевые сведения</li>
+							<li>Подать обращение</li>
+						</ul>
+						<div class="box visible">
+							<div class="mun mun_item1">
+								<div class="chast">
+									<div class="icon icon_item1"></div>
+									<div class="text"><h1>Цели программы</h1><p>Обеспечение нормативного состояния и развитие сети автомобильных дорог общего пользования местного значения</p></div>
+								</div>
+								<div class="chast">
+									<div class="icon icon_item2"></div>
+									<div class="text"><h1>Сроки реализации программы</h1><p>2014 – 2016 годы</p></div>
+								</div>
+							</div>
+							<div class="mun mun_item2">
+								<div class="chast">
+									<div class="icon icon_item3"></div>
+									<div class="text"><h1>Ответственный руководитель ФЦБ</h1><p>Заместитель главы администрации города Перми –руководитель ФЦБ «Городское хозяйство»</p><br><h1>Ответственный исполнитель</h1><p>Управление внешнего благоустройства администрации города Перми</p><br><h1>Исполнитель программы</h1><p>Управление внешнего благоустройства администрации города Перми</p></div>
+								</div>
+								<div class="chast">
+									<div class="text"><h1>Участники программы</h1><p>Муниципальное казенное учреждение «Пермблагоустройство»</p><br><p>Муниципальные казенные учреждения по благоустройству районов</p><br><p>Территориальные органы администрации города Перми</p></div>
+								</div>
+							</div>
+							<div class="mun mun_item3">
+								<div class="chast">
+									<div class="icon icon_item4"></div>
+									<div class="text"><h1>Перечень подпрограмм</h1><p>Обеспечение нормативного состояния автомобильных дорог и элементов дорог</p><p>Развитие сети автомобильных дорог и наружного освещения</p><p>Обеспечение деятельности заказчиков работ</p></div>
+								</div>
+							</div>
+							<div class="mun mun_item4">
+								<div class="chast"> 
+									<div class="icon icon_item5"></div>
+									<div class="text"><h1>Ожидаемые социально-экономические последствия реализации программы</h1><p>Социально-экономические последствия отсутствуют, так как программа направлена на  поддержание и улучшение состояния автомобильных дорог и элементов города Перми, являющихся территориями общего пользования и предусматривают  неограниченное число пользователей.</p></div>
+								</div> 	
+							</div>						
+						</div>
+						<div class="box">
+							<div class="title_ks">Расходы по программам в целом, млн руб.</div>
+							<div class="key_sved bg_ks">
+								<div class="outcome"><span class="icon_ks icon_ks1"></span><a href="">Обеспечение доступности качественного образования в городе Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">7,0</span> млн руб</span>
+									<span class="chisla2">31,6 %</span>
+								</span>	
+							</div>
+							<div class="key_sved activ_ks">
+								<div class="outcome"><span class="icon_ks icon_ks2"></span><a href="">Организация дорожной деятельности в городе Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">2,4</span> млн руб</span>
+									<span class="chisla2">10,5 %</span>
+								</span>
+							</div>
+							<div class="key_sved bg_ks">
+								<div class="outcome"><span class="icon_ks icon_ks3"></span><a href="">Социальная поддержка населения города Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">1,8</span> млн руб</span>
+									<span class="chisla2">8,0 %</span>
+								</span>
+							</div>
+							<div class="key_sved ">
+								<div class="outcome"><span class="icon_ks icon_ks4"></span><a href="">Культура города Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">0,6</span> млн руб</span>
+									<span class="chisla2">6,6 %</span>
+								</span>
+							</div>
+							<div class="key_sved bg_ks">
+								<div class="outcome"><span class="icon_ks icon_ks5"></span><a href="">Профилактика правонарушений в городе Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">0,54</span> млн руб</span>
+									<span class="chisla2">5,6 %</span>
+								</span>
+							</div>
+							<div class="key_sved">
+								<div class="outcome"><span class="icon_ks icon_ks6"></span><a href="">Благоустройство и содержание объектов озеленения общего пользования и объектов ритуального назначения в городе Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">0,52</span> млн руб</span>
+									<span class="chisla2">5,2 %</span>
+								</span>
+							</div>
+							<div class="key_sved bg_ks">
+								<div class="outcome"><span class="icon_ks icon_ks7"></span><a href="">Осуществление мер по гражданской обороне пожарной безопасности и защите от чрезвычайных ситуаций в городе Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">0,44</span> млн руб</span>
+									<span class="chisla2">4,8 %</span>
+								</span>
+							</div>
+							<div class="key_sved">
+								<div class="outcome"><span class="icon_ks icon_ks8"></span><a href="">Молодеж города Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">0,48</span> млн руб</span>
+									<span class="chisla2">4,2%</span>
+								</span>
+							</div>
+							<div class="key_sved bg_ks">
+								<div class="outcome"><span class="icon_ks icon_ks9"></span><a href="">Социальная поддержка населения города Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">0,4</span> млн руб</span>
+									<span class="chisla2">3,2%</span>
+								</span>
+							</div>
+							<div class="key_sved">
+								<div class="outcome"><span class="icon_ks icon_ks10"></span><a href="">Градостроительная деятельность на территории города Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">0,32</span> млн руб</span>
+									<span class="chisla2">2,8 %</span>
+								</span>
+							</div>
+							<div class="key_sved bg_ks">
+								<div class="outcome"><span class="icon_ks icon_ks11"></span><a href="">Обеспечение платности и законности использования земли на территории города Перми</a></div>
+								<span class="chisla">									
+									<span class="chisla1"><span style ="font-size:16pt;">0,28</span> млн руб</span>
+									<span class="chisla2">1,6%</span>
+								</span>
+							</div>
+							<div class="key_sved">
+								<div class="outcome"><span class="icon_ks icon_ks12"></span><a href="">Управление муниципальным имуществом города Перми</a></div>
+								<span class="chisla">
+									<span class="chisla1"><span style ="font-size:16pt;">0,2</span> млн руб</span>
+									<span class="chisla2">1,2%</span>
+								</span>
+							</div>
+						</div>
+						<div class="box"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore incidunt a quaerat dolor fuga sapiente autem exercitationem assumenda, consequuntur vero dolorem magni dicta fugiat ex reiciendis. Consequatur illum sunt placeat?</div>
+						<div>Similique adipisci accusamus fuga tempore totam quis velit esse. Neque voluptatem odio nostrum non itaque voluptatum, est dicta dolorem provident illum nemo error ex suscipit et odit incidunt quasi. Reiciendis!</div>
+						<div>Ab aperiam explicabo repudiandae tempora et inventore maiores illo ad quod maxime ullam placeat, similique ea corrupti velit facere, perferendis aliquam! Ut autem excepturi quis nihil aperiam. Labore veritatis, sed!</div>
+						<div>Explicabo architecto numquam aliquam. Quae commodi quod, temporibus aut deserunt qui culpa vel perferendis, excepturi, eaque assumenda sunt dicta natus quis ut ratione. Magnam numquam quas commodi ratione, illo doloremque!</div>
+						<div>Alias minus architecto ut nobis ducimus vel, incidunt. Dolores, aspernatur ducimus id alias repudiandae laborum aperiam aut iusto officiis quae repellat totam quos maxime, incidunt, non. Itaque rem aliquam vel.</div>
+						<div>Enim illum quibusdam repellat voluptatem reprehenderit labore, sequi quo ex odit tempora, iure distinctio reiciendis molestias ratione consequatur beatae odio dolor rerum! Explicabo quaerat accusamus, tenetur praesentium asperiores molestiae sit.</div>
+						<div>Cupiditate aperiam quo, quaerat ab, reprehenderit iure aliquid esse ratione sit, animi totam dolorum corrupti placeat beatae architecto quas! Natus veritatis magni sunt modi quasi tempora, eos, quibusdam magnam necessitatibus.</div>
+						<div>Excepturi, quod rerum dicta! Dolorem dolore cupiditate autem, placeat adipisci, quod repellat, quasi doloribus laboriosam ex debitis. Quae labore quas eum quis totam corporis consequuntur ea aliquam beatae, nesciunt quod.</div>
+						<div>Labore ducimus ut, cum delectus vel pariatur temporibus facilis quod voluptate rem ab illum non veritatis optio deserunt maiores, harum! Ea, a nisi omnis animi eligendi culpa possimus assumenda cum.</div>
+						<div>Id incidunt inventore saepe eaque ab, porro, vel tempora quas. Maiores mollitia tempora laudantium consequuntur eveniet quo, possimus aperiam. Facere aliquid laboriosam labore vero facilis quidem impedit! Cupiditate, quod. Earum.</div>
+						<div>Molestias voluptatum adipisci atque iste cumque aspernatur sed maxime, ullam corrupti aut eligendi non in provident ea et, labore porro ducimus quisquam nostrum vero dicta error minus veritatis! Rerum, excepturi.</div>
+						<div>Amet ipsa magni quo neque tenetur, nihil repellendus consectetur doloremque inventore obcaecati facere pariatur repellat commodi, debitis voluptate natus quaerat quia fugiat, recusandae aut. Velit sed dignissimos, dolor quos nisi?</div></div>				
+					</div>		
+				</div>
+			</div>	
+			<div class="footer">
+				<a href="#" id="toTop"><span class="up">Наверх</span></a>
+				<div class="about">
+					<span>© 2013 Публичный бюджет города Перми</span>
+					<ul>
+						<li><span class="s_icon s_icon_portal1"></span><a href="#" style="text-decoration:underline; color:#CB757F"><span style="color:#fff">О портале</span></a></li>
+						<li><span class="s_icon s_icon_map1"></span><a href="#" style="text-decoration:underline; color:#CB757F"><span style="color:#fff">Карта сайта</span></a></li>
+					</ul>
+				</div>
+				<div class="support">
+					<span>Служба технической поддержки</span>
+					<a href="">support-ru@prognoz.ru</a>
+				</div>
+				<ul class="other_links">
+					<li>
+						<span>
+							Департамент<br>финансов<br>города Перми
+						</span>
+						<a href="" style="text-decoration:underline; color:#CB757F"><span style="color:#fff">depfin.gorodperm.ru</span></a></li>
+					<li>
+						<span>
+							Администрация<br>города<br>Перми
+						</span>
+						<a href=""style="text-decoration:underline; color:#CB757F"><span style="color:#fff">gorodperm.ru</span></a>
+					</li>
+					<li>
+						<span>Министерство<br>финансов<br>Пермского края</span>
+						<a href=""style="text-decoration:underline; color:#CB757F"><span style="color:#fff">budget.perm.ru</span></a>
+					</li>							
+					<li>
+						<span>Министерство<br>финансов Российской<br>Федерации</span>
+						<a href=""style="text-decoration:underline; color:#CB757F"><span style="color:#fff">minfin.ru</span></a>
+					</li>
+				</ul>
+			</div>
+		<div class="clr"></div>	
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

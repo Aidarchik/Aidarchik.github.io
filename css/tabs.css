@@ -1,0 +1,213 @@
+.section {
+    position: relative;
+    margin: 0px 8px;
+       background: transparent;
+}
+
+ul.tabs {
+    list-style: none outside none;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+
+.tabs li {
+    display: inline-table;
+    margin-left: 3px;
+    padding: 12px 15px;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tabs li:first-child{
+    margin-left: 21px;
+}
+
+
+.tabs li.current {
+    text-decoration: none;
+    -webkit-border-top-left-radius: 4px;
+     -moz-border-top-left-radius: 4px;
+     -ms-border-top-left-radius: 4px;
+     -o-border-top-left-radius: 4px;
+     border-top-left-radius: 4px; 
+     -webkit-border-top-right-radius: 4px;
+     -moz-border-top-right-radius: 4px;
+     -ms-border-top-right-radius: 4px;
+     -o-border-top-right-radius: 4px;
+     background-color: #fff; 
+     border-top-right-radius: 4px;
+    border-color: #B3B3B3 #B3B3B3 #fff;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.box {
+    display: none;   /* по умолчанию прячем все блоки */
+    padding: 0 12px;
+    background: url("../images/mun_b.png") repeat-x top;
+}
+
+.box.visible {
+    display: block; /* по умолчанию показываем нужный блок */
+}
+
+
+.mun{
+    display: table;
+    border-bottom:solid 1px #CCCCCC;
+    width: 100%;
+    background: transparent;
+}
+
+.mun:last-child{
+    border-bottom: none;
+}
+
+.chast{
+    display:table-cell;
+    padding: 18px 14px;
+    width: 50%; 
+}
+
+.chast>*{
+    display:inline-block;
+    vertical-align: top; 
+}
+
+
+.text{
+    margin-left: 10px;
+    width: 75%;
+}
+
+.icon{
+    background: url("../images/mun_sprites.png") transparent;
+    width: 66px;
+    height: 66px;
+    margin-right: 10px;
+}
+
+.icon_item1{
+    background-position: 0 0;
+}
+.icon_item2{
+    background-position: -67px 0;
+}
+.icon_item3{
+    background-position: -129px 0;
+}
+.icon_item4{
+    background-position: -191px 0;
+}
+.icon_item5{
+    background-position: -252px 0;
+}
+/*ключевые сведения*/
+.title_ks{
+    padding: 31px 14px;
+    font-size: 16pt;
+}
+
+.key_sved{
+    position: relative;
+    background: transparent;
+    height: 54px;
+    min-width: 947px;
+}
+
+.activ_ks{
+    border:2px solid #C1272D;
+}
+
+.bg_ks{
+    background: #fff;   
+}
+
+.outcome, .chisla{
+    position: absolute;
+}
+/*начало иконок и ссылок*/
+.outcome{
+    left: 13px;
+    top:7px;
+
+}
+
+/*иконки*/
+.icon_ks{
+    float: left;
+    background: url("../images/outcome_sprites.png") ;
+    width:40px;
+    height: 40px;
+}
+
+.icon_ks1{
+    background-position: 0 0px;
+}
+.icon_ks2{
+    background-position: 0 -40px;
+}
+.icon_ks3{
+    background-position: 0 -80px;
+}
+.icon_ks4{
+    background-position: 0 -120px;
+}
+.icon_ks5{
+    background-position: 0 -160px;
+}
+.icon_ks6{
+    background-position: 0 -200px;
+}
+.icon_ks7{
+    background-position: 0 -240px;
+}
+.icon_ks8{
+    background-position: 0 -280px;
+}
+.icon_ks9{
+    background-position: 0 -320px;
+}
+.icon_ks10{
+    background-position: 0 -360px;
+}
+.icon_ks11{
+    background-position: 0 -400px;
+}
+.icon_ks12{
+    background-position: 0 -440px;
+}
+
+/*конец иконок*/
+
+/*начало ссылок*/
+.outcome a{
+    float: left;
+    width: 600px;
+    margin: 0 20px; 
+    text-decoration: underline;
+    color:#2987C1;
+}
+/*конец ссылок*/
+/*конец иконок и ссылок*/
+.chisla{
+    right: 22px;
+    top: 10px;
+    width: 177px;
+}
+
+.chisla1{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.chisla2{
+    position: absolute;
+    top:6px;
+    left: 124px;
+}
+
+
+/*конец ключевых сведений*/
+/*.key_sved*12(.outcome(span.icon_ks[class="icon_ks$"]+a)+span(h2+h3+h4))*/
